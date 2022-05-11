@@ -5,7 +5,7 @@
   <!-- Dit formulier gaat naar de functie 'create' in Birthdayscontroller.php-->
   <form action="<?=URL?>birthdays/create" method="post" autocomplete="off">
     <label for="fname">Naam</label>
-    <input type="text" id="person" name="person" minlength="2" maxlength="20" placeholder="Nieuwe naam" required>
+    <input type="text" id="person" name="person" minlength="2" maxlength="30" placeholder="Nieuwe naam" required>
 
     <label for="fname">Dag</label>
     <input type="number"onkeydown="return FilterInput(event)" onpaste="handlePaste(event)"  id="day" name="day" min="1" max = "31" placeholder="Dag" required>

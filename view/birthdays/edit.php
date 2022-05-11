@@ -9,7 +9,7 @@ $data = $bday[0];
 <!-- Dit formulier gaat naar de functie 'saveEdit' in Birthdayscontroller.php-->
   <form action="<?=URL?>birthdays/saveEdit" method="post" autocomplete="off">
     <label for="fname">Naam</label>
-    <input type="text" id="person" name="person" minlength="2" maxlength="20" value="<?echo $data['person'];?>" required>
+    <input type="text" id="person" name="person" minlength="2" maxlength="30" value="<?echo $data['person'];?>" required>
 
     <label for="fname">Dag</label>
     <input type="number"onkeydown="return FilterInput(event)" onpaste="handlePaste(event)"  id="day" name="day" min="1" max = "31" value="<?echo $data['day'];?>" required>
