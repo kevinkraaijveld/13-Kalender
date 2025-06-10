@@ -18,4 +18,3 @@ Het spel moet aan de volgende technische eisen voldoen:
 * De applicatie bestaat uit een werkend CRUD systeem (Create, Read, Update, Delete)
 * De applicatie is geschreven in het MVC Framework van het Da Vinci College: [Framework-PHP](https://github.com/davinci-ao17/framework-php)
 * Behoefte aan meer uitdaging? Bouw het project in een groot bekend framework, bijvoorbeeld: [Codeigniter](https://codeigniter.com/), [Lumen](https://lumen.laravel.com/), [Phalcon PHP](https://phalconphp.com/nl/), [Laravel](https://laravel.com/) of [Symfony](https://symfony.com/)
-
